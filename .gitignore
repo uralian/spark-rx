@@ -3,7 +3,10 @@
 
 # sbt specific
 .cache
-.history
+.cache-main
+.cache-tests
+.cache/
+.history/
 .lib/
 dist/*
 target/
@@ -15,3 +18,11 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+.project
+.classpath
+.cache
+.settings/
+/bin
+
+# 3rd parties
+metastore_db/
